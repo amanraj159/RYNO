@@ -1,0 +1,7 @@
+# RYNO - UserBot
+# Copyright (C) 2020 RYNO
+
+# This file is a part of < https://github.com/RYNO-X/RYNO/ >
+# PLease read the GNU Affero General Public License in <https://www.github.com/RYNO-X/RYNO/blob/main/LICENSE/>.
+
+bash resources/session/session.sh
