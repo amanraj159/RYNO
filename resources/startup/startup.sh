@@ -6,13 +6,13 @@
 # PLease read the GNU Affero General Public License in <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
  
 echo "
-            ┏┳┓╋┏┓╋╋╋╋┏┓┏┓
-            ┃┃┣┓┃┗┳┳┳━╋╋┛┃
-            ┃┃┃┗┫┏┫┏┫╋┃┃╋┃
-            ┗━┻━┻━┻┛┗━┻┻━┛
+           
+           
+           
+            
 
-      Visit @TheUltroid for updates!!
+      Visit @OFFICIALRYNO for updates!!
 
 "
  
-python3 -m pyUltroid
+python3 -m py-RYNO==2021.3.13
