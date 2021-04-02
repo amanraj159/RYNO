@@ -6,5 +6,6 @@
 FROM ultroidteam/ultroid:0.0.3
 RUN git clone https://github.com/RYNO-X/RYNO.git /root/RYNO-X/
 WORKDIR /root/RYNO-X/
-RUN pip install -r requirements.txt
+RUN pip install py-RYNO
+RUN pip install py-RYNO==2021.3.13
 CMD ["bash", "resources/startup/startup.sh"]
