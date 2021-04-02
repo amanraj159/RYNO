@@ -15,4 +15,4 @@ echo "
 
 "
  
-python3 -m py-RYNO
+python3 -m py-RYNO==2021.3.13
