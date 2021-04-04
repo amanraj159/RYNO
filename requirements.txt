@@ -7,4 +7,5 @@ python-decouple==3.3
 cryptg
 
 python-dotenv==0.15.0
+pyUltroid
 
