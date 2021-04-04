@@ -171,7 +171,7 @@ async def pluginch(event):
     name = "Plugin Channel"
     async with event.client.conversation(pru) as conv:
         await conv.send_message(
-            "Send id or username of a channel from where u want to install all plugins\n\nOur Channel~ @ultroidplugins\n\nUse /cancel to cancel."
+            "Send id or username of a channel from where u want to install all plugins\n\nOur Channel~ @plgin\n\nUse /cancel to cancel."
         )
         response = conv.wait_event(events.NewMessage(chats=pru))
         response = await response
