@@ -50,7 +50,7 @@ try:
     )
 except BaseException:
     wr("REDIS_URI or REDIS_PASSWORD is wrong! Recheck!")
-    wr("Ultroid has shutdown!")
+    wr("RYNO has shutdown!")
     exit(1)
 
 try:
