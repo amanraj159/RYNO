@@ -7,16 +7,16 @@
 
 import time
 
-from py-RYNO import *
-from py-RYNO.dB import *
-from py-RYNO.dB.core import *
-from py-RYNO.functions import *
-from py-RYNO.functions.all import *
-from py-RYNO.functions.broadcast_db import *
-from py-RYNO.functions.gban_mute_db import *
-from py-RYNO.functions.google_image import googleimagesdownload
-from py-RYNO.functions.sudos import *
-from py-RYNO.utils import *
+from RYNO import *
+from RYNO.dB import *
+from RYNO.dB.core import *
+from RYNO.functions import *
+from RYNO.functions.all import *
+from RYNO.functions.broadcast_db import *
+from RYNO.functions.gban_mute_db import *
+from RYNO.functions.google_image import googleimagesdownload
+from RYNO.functions.sudos import *
+from RYNO.utils import *
 
 from strings import get_string
 
