@@ -1,4 +1,4 @@
-from py-RYNO import *
+from RYNO import *
 from ..dB.database import Var
 
 DANGER = [
