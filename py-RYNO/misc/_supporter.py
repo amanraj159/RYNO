@@ -11,8 +11,8 @@ from telethon.tl.types import ChatBannedRights
 import os
 from .. import *
 from ..utils import *
-from py-RYNO.misc._decorators import *
-from py-RYNO.misc._wrappers import *
+from RYNO.misc._decorators import *
+from RYNO.misc._wrappers import *
 import re
 import inspect
 import functools
