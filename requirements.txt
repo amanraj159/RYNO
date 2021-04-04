@@ -1,2 +1,10 @@
+telethon==1.19.5
 
-py-RYNO
+redis
+
+python-decouple==3.3
+
+cryptg
+
+python-dotenv==0.15.0
+
