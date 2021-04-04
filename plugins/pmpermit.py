@@ -21,7 +21,7 @@
     To Unblock Someone in PM.
 """
 
-from pyUltroid.functions.pmpermit_db import *
+from RYNO.functions.pmpermit_db import *
 from telethon import events
 from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
 from telethon.tl.functions.messages import ReportSpamRequest
