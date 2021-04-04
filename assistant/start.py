@@ -7,7 +7,7 @@
 
 from datetime import datetime
 
-from pyUltroid.functions.asst_fns import *
+from RYNO.functions.asst_fns import *
 from telethon import Button, custom, events
 
 from plugins import *
