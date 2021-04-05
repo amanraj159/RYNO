@@ -124,7 +124,7 @@ async def _(ult):
     if HEROKU_API is None and HEROKU_APP_NAME is None:
         return await xx.edit("Please set `HEROKU_APP_NAME` and `HEROKU_API` in vars.")
     await xx.edit("`Downloading Logs...`")
-    with open("logs-ultroid.txt", "w") as log:
+    with open("logs-RYNO.txt", "w") as log:
         log.write(app.get_log())
     ok = app.get_log()
     key = (
