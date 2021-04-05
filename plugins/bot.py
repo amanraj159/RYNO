@@ -124,7 +124,7 @@ async def _(ult):
     if HEROKU_API is None and HEROKU_APP_NAME is None:
         return await xx.edit("Please set `HEROKU_APP_NAME` and `HEROKU_API` in vars.")
     await xx.edit("`Downloading Logs...`")
-    with open("logs-RYNO.txt", "w") as log:
+    with open("RYNO-logs.txt", "w") as log:
         log.write(app.get_log())
     ok = app.get_log()
     key = (
@@ -136,14 +136,14 @@ async def _(ult):
     url = f"https://nekobin.com/{key}"
     await ult.client.send_file(
         ult.chat_id,
-        "logs-RYNO.txt",
+        "RYNO-logs.txt",
         reply_to=ult.id,
         caption=get_string("log").format(url),
     )
     await xx.edit("`Uploading...`")
     await asyncio.sleep(1)
     await xx.delete()
-    return os.remove("logs-RYNO.txt")
+    return os.remove("RYNO-logs.txt")
 
 
 @ultroid_cmd(
