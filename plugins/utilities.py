@@ -480,8 +480,8 @@ async def rmbg(event):
             os.remove(dl)
             return await xx.edit("`Unsupported Media`")
         await xx.edit("`Sending to remove.bg`")
-        out = ReTrieveFile("ult.png")
-        os.remove("ult.png")
+        out = ReTrieveFile("RYNO.png")
+        os.remove("RYNO.png")
         os.remove(dl)
     else:
         await xx.edit(f"Use `{HNDLR}rmbg` as reply to a pic to remove its background.")
@@ -489,7 +489,7 @@ async def rmbg(event):
         await xx.delete()
         return
     contentType = out.headers.get("content-type")
-    rmbgp = "ult.png"
+    rmbgp = "RYNO.png"
     if "image" in contentType:
         with open(rmbgp, "wb") as rmbg:
             rmbg.write(out.content)
@@ -501,13 +501,13 @@ async def rmbg(event):
     zz = Image.open(rmbgp)
     if zz.mode != "RGB":
         zz.convert("RGB")
-    zz.save("ult.webp", "webp")
+    zz.save("RYNO.webp", "webp")
     await ultroid_bot.send_file(
         event.chat_id, rmbgp, force_document=True, reply_to=reply
     )
-    await ultroid_bot.send_file(event.chat_id, "ult.webp", reply_to=reply)
+    await ultroid_bot.send_file(event.chat_id, "RYNO.webp", reply_to=reply)
     os.remove(rmbgp)
-    os.remove("ult.webp")
+    os.remove("RYNO.webp")
     await xx.delete()
 
 
