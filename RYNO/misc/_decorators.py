@@ -162,7 +162,7 @@ def ultroid_cmd(allow_sudo=on, **args):
                     ftext += "you may not report this error if you've "
                     ftext += "any confidential data here, no one will see your data "
                     ftext += "if you choose not to do so.\n\n"
-                    ftext += "--------START ULTROID CRASH LOG--------"
+                    ftext += "--------START RYNO CRASH LOG--------"
                     ftext += "\nDate: " + date
                     ftext += "\nGroup ID: " + str(ult.chat_id)
                     ftext += "\nSender ID: " + str(ult.sender_id)
@@ -172,7 +172,7 @@ def ultroid_cmd(allow_sudo=on, **args):
                     ftext += str(format_exc())
                     ftext += "\n\nError text:\n"
                     ftext += str(sys.exc_info()[1])
-                    ftext += "\n\n--------END ULTROID CRASH LOG--------"
+                    ftext += "\n\n--------END RYNO CRASH LOG--------"
 
                     command = 'git log --pretty=format:"%an: %s" -5'
 
